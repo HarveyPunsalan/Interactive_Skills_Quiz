@@ -26,3 +26,54 @@ body {
     padding-top: 15px;
     font-size: 18px;
 }
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+}
+
+#quiz {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+.questionnaire {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+ol {
+    padding-left: 0;
+    line-height: 2;
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+#fact-btn {
+    background-color: #163f83;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease;
+}
+
+#fact-btn:hover {
+    background-color: #2563eb;
+}
+
+#result {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}

@@ -18,8 +18,8 @@
   <section id="quiz">
     <form id="quiz-form">
       <!--Question 1 -->
-      <p>What is the capital of France?</p>
-      <ul>
+      <p class="questionnaire">What is the capital of France?</p>
+      <ol>
         <li>
           <input type="radio" id="Paris" name="q1" value="a" required>
           <label for="Paris">Paris</label>
@@ -36,11 +36,11 @@
           <input type="radio" id="Madrid" name="q1" value="d">
           <label for="Madrid">Madrid</label>
         </li>
-      </ul>
+      </ol>
 
       <!--Question 2 -->
-      <p>Which planet is known as the Red Planet?</p>
-      <ul>
+      <p class="questionnaire">Which planet is known as the Red Planet?</p>
+      <ol>
         <li>
           <input type="radio" id="Venus" name="q2" value="a" required>
           <label for="Venus">Venus</label>
@@ -53,11 +53,11 @@
           <input type="radio" id="Jupiter" name="q2" value="c">
           <label for="Jupiter">Jupiter</label>
         </li>
-      </ul>
+      </ol>
 
       <!--Question 3 -->
-      <p>What is the largest ocean on Earth?</p>
-      <ul>
+      <p class="questionnaire">What is the largest ocean on Earth?</p>
+      <ol>
         <li>
           <input type="radio" id="Atlantic Ocean" name="q3" value="Atlantic Ocean" required>
           <label for="Atlantic Ocean">Atlantic Ocean</label>
@@ -74,7 +74,7 @@
           <input type="radio" id="Arctic Ocean" name="q3" value="Arctic Ocean">
           <label for="Arctic Ocean">Arctic Ocean</label>
         </li>
-      </ul>
+      </ol>
       <button type="submit" id="fact-btn">Submit Answers</button>
     </form>
     <span id="result"></span>
